@@ -1,0 +1,156 @@
+/*Some of the settings used here are from the Harvard CS50 course, other items have been used or modified have been referenced*/
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+.SearchBox {
+    background-color: gray;
+    border: solid rgb(105, 105, 105);
+    margin: 2px;
+    padding: 30px;
+    color: rgba(105, 105, 105);
+    word-wrap: break-word;
+    outline-style: transparent;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.input
+{
+    margin: 2px;
+    padding-left: 20px;
+    border-radius: 40px;
+    min-width: 300px;
+    width: 33.3%;
+    outline-color: transparent;
+}
+
+.MainSearchButtons {
+    background-color: #f8f9fa;
+    border: 1px solid #3c4043;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.MainSearchButtons:hover {
+    background-color: #cecece;
+    border: 1px solid #3c4043;
+    border-radius: 4px;
+    color: #3f4142a2;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*footer*/
+
+.footerBack
+{
+ background:transparent;
+}
+#bottom { 
+    position:absolute;                  
+    bottom:0;                          
+    right:0;                          
+} 
+
+/*Search*/
+.centerMe
+{
+    vertical-align: central;
+    width: 33.3%;
+}
+
+.leftMe
+{
+    vertical-align: left;
+}
+
+.padMe{
+    background-color: var(--search-box-bg, white);
+    border: none;
+    border-radius: 40px;
+    color: var(--search-box-text);
+    font-size: 16px;
+    height: 100%;
+    outline-style: transparent;
+    padding-inline-end: 40px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%;
+}
+
+/*Advanced Search Button*/
+.AdvancedSearchButtons
+{
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.AdvancedSearchButtons:hover {
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+    box-shadow: none;
+    background-color: #649fff;
+    background-image: -webkit-linear-gradient(top,#649fff,#649fff);
+    border: 1px solid #649fff;
+    color: #fff;
+}
